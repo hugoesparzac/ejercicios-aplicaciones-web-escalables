@@ -1,0 +1,82 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  font-family: "Montserrat", sans-serif;;
+  font-size: 1.6rem;
+  font-style: normal;
+  background-color: #FFFFFF ;
+  margin: 0;
+  &.darkmode {
+      background-color: #000000;
+      h1, h2, h3 {
+          color: #00ff00;
+      }
+      p {
+          color: #FFFFFF;
+      }
+  }
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.contenedor {
+  width: 95%;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, h3 {
+  margin: 2rem 0;
+  font-weight: 900;
+  color: #000;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+p {
+  color: #000;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.cont-center {
+  display: flex;
+  justify-content: center;
+}
+
+body.darkmode .footer {
+  background-color: #191d4d;
+  color: #FFFFFF;
+}
+
+.footer {
+  text-align: center;
+  background-color: #DFE9F3;
+  padding: 2rem 0;
+}
+
+.redes-sociales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen-red-social {
+  max-width: 3rem;
+  margin: 1rem;
+}

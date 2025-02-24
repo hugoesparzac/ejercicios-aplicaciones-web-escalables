@@ -1,0 +1,47 @@
+.header {
+  background-color: #4CB8B3;
+   @media (min-width: 768px) {
+      &.fixed {
+          position: fixed;
+          left: 0;
+          top: 0;
+          width: 100%;
+          box-shadow: .1rem .2rem .3rem #333;
+      }
+  }
+  h1 {
+      color: #000000;;
+      text-align: center;
+       @media (min-width: 768px) {
+          text-align: left;
+          margin: 0;
+      }
+  }
+  .contenido-header {
+      padding: 2rem;
+       @media (min-width: 768px) {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+  }
+}
+
+.navegacion-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+   @media (min-width: 768px) {
+      flex-direction: row;
+  }
+  a {
+      color: #000000;;
+      font-size: 2.4rem;
+      &:hover,
+      &.active {
+          color:  #fdda00;
+      }
+  }
+}
